@@ -4,7 +4,7 @@
   <title><![CDATA[Category: misc | My Blog]]></title>
   <link href="http://genejon.es/blog/categories/misc/atom.xml" rel="self"/>
   <link href="http://genejon.es/"/>
-  <updated>2013-11-10T02:59:48-05:00</updated>
+  <updated>2013-11-10T03:35:26-05:00</updated>
   <id>http://genejon.es/</id>
   <author>
     <name><![CDATA[Gene Jones]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hullo World]]></title>
-    <link href="http://genejon.es/blog/2013/04/12/hullo-world/"/>
+    <link href="http://genejon.es/blog/hullo-world/"/>
     <updated>2013-04-12T14:20:00-04:00</updated>
-    <id>http://genejon.es/blog/2013/04/12/hullo-world</id>
+    <id>http://genejon.es/blog/hullo-world</id>
     <content type="html"><![CDATA[<p>Hullo World, I setup an Octopress site!
 <code>javascript
 console.log("Hullo World");

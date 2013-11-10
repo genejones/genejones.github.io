@@ -4,7 +4,7 @@
   <title><![CDATA[Category: analytics | My Blog]]></title>
   <link href="http://genejon.es/blog/categories/analytics/atom.xml" rel="self"/>
   <link href="http://genejon.es/"/>
-  <updated>2013-11-10T02:59:48-05:00</updated>
+  <updated>2013-11-10T03:35:26-05:00</updated>
   <id>http://genejon.es/</id>
   <author>
     <name><![CDATA[Gene Jones]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Analytics Manifesto]]></title>
-    <link href="http://genejon.es/blog/2013/05/24/analytics-manifesto/"/>
+    <link href="http://genejon.es/blog/analytics-manifesto/"/>
     <updated>2013-05-24T10:44:00-04:00</updated>
-    <id>http://genejon.es/blog/2013/05/24/analytics-manifesto</id>
+    <id>http://genejon.es/blog/analytics-manifesto</id>
     <content type="html"><![CDATA[<h4>An Analytics Manifesto</h4>
 
 <p>Analytics has plodded along long enough.</p>

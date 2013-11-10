@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://genejon.es/blog/2013/04/12/a-sane-blog-switching-from-wordpress-to-octopress">
+  <link rel="canonical" href="http://genejon.es/blog/a-sane-blog-switching-from-wordpress-to-octopress">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="My Blog" type="application/atom+xml">
@@ -215,7 +215,7 @@ And if that&rsquo;s not an example of the sunk cost fallacy, I don&rsquo;t know 
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://genejon.es/blog/2013/04/12/a-sane-blog-switching-from-wordpress-to-octopress/" data-via="" data-counturl="http://genejon.es/blog/2013/04/12/a-sane-blog-switching-from-wordpress-to-octopress/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://genejon.es/blog/a-sane-blog-switching-from-wordpress-to-octopress/" data-via="generjones" data-counturl="http://genejon.es/blog/a-sane-blog-switching-from-wordpress-to-octopress/" >Tweet</a>
   
   
   
@@ -224,10 +224,10 @@ And if that&rsquo;s not an example of the sunk cost fallacy, I don&rsquo;t know 
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2013/04/12/hullo-world/" title="Previous Post: Hullo World">&laquo; Hullo World</a>
+        <a class="basic-alignment left" href="/blog/hullo-world/" title="Previous Post: Hullo World">&laquo; Hullo World</a>
       
       
-        <a class="basic-alignment right" href="/blog/2013/04/24/china-rules-consumer-goods/" title="Next Post: China Rules Consumer Goods">China Rules Consumer Goods &raquo;</a>
+        <a class="basic-alignment right" href="/blog/china-rules-consumer-goods/" title="Next Post: China Rules Consumer Goods">China Rules Consumer Goods &raquo;</a>
       
     </p>
   </footer>
@@ -242,26 +242,55 @@ And if that&rsquo;s not an example of the sunk cost fallacy, I don&rsquo;t know 
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2013/05/24/analytics-manifesto/">Analytics Manifesto</a>
+        <a href="/blog/analytics-manifesto/">Analytics Manifesto</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2013/04/24/made-in-the-usa-making-goods-at-home/">Made in the USA: Making Goods at Home</a>
+        <a href="/blog/made-in-the-usa-making-goods-at-home/">Made in the USA: Making Goods at Home</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2013/04/24/china-and-patent-law/">China and Patent Law</a>
+        <a href="/blog/china-and-patent-law/">China and Patent Law</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2013/04/24/china-rules-consumer-goods/">China Rules Consumer Goods</a>
+        <a href="/blog/china-rules-consumer-goods/">China Rules Consumer Goods</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2013/04/12/a-sane-blog-switching-from-wordpress-to-octopress/">A Sane Blog: Switching From Wordpress to Octopress</a>
+        <a href="/blog/a-sane-blog-switching-from-wordpress-to-octopress/">A Sane Blog: Switching From Wordpress to Octopress</a>
       </li>
     
   </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/genejones">@genejones</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'genejones',
+            count: 1,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 

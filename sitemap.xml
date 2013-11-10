@@ -1,30 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://genejon.es/blog/2013/04/12/hullo-world/</loc>
+        <loc>http://genejon.es/blog/hullo-world/</loc>
         <lastmod>2013-11-10T02:54:36-05:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://genejon.es/blog/2013/04/12/a-sane-blog-switching-from-wordpress-to-octopress/
-        </loc>
+        <loc>http://genejon.es/blog/a-sane-blog-switching-from-wordpress-to-octopress/</loc>
         <lastmod>2013-11-10T02:54:36-05:00</lastmod>
     </url>
     <url>
-        <loc>http://genejon.es/blog/2013/04/24/china-rules-consumer-goods/</loc>
+        <loc>http://genejon.es/blog/china-rules-consumer-goods/</loc>
         <lastmod>2013-11-10T02:54:36-05:00</lastmod>
     </url>
     <url>
-        <loc>http://genejon.es/blog/2013/04/24/china-and-patent-law/</loc>
+        <loc>http://genejon.es/blog/china-and-patent-law/</loc>
         <lastmod>2013-11-10T02:54:36-05:00</lastmod>
     </url>
     <url>
-        <loc>http://genejon.es/blog/2013/04/24/made-in-the-usa-making-goods-at-home/</loc>
+        <loc>http://genejon.es/blog/made-in-the-usa-making-goods-at-home/</loc>
         <lastmod>2013-11-10T02:54:36-05:00</lastmod>
     </url>
     <url>
-        <loc>http://genejon.es/blog/2013/05/24/analytics-manifesto/</loc>
+        <loc>http://genejon.es/blog/analytics-manifesto/</loc>
         <lastmod>2013-11-10T02:54:36-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://genejon.es/mission/</loc>
+        <lastmod>2013-11-10T03:35:17-05:00</lastmod>
     </url>
     <url>
         <loc>http://genejon.es/blog/archives/</loc>

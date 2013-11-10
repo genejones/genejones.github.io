@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog]]></title>
   <link href="http://genejon.es/atom.xml" rel="self"/>
   <link href="http://genejon.es/"/>
-  <updated>2013-11-10T02:59:48-05:00</updated>
+  <updated>2013-11-10T03:35:26-05:00</updated>
   <id>http://genejon.es/</id>
   <author>
     <name><![CDATA[Gene Jones]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Analytics Manifesto]]></title>
-    <link href="http://genejon.es/blog/2013/05/24/analytics-manifesto/"/>
+    <link href="http://genejon.es/blog/analytics-manifesto/"/>
     <updated>2013-05-24T10:44:00-04:00</updated>
-    <id>http://genejon.es/blog/2013/05/24/analytics-manifesto</id>
+    <id>http://genejon.es/blog/analytics-manifesto</id>
     <content type="html"><![CDATA[<h4>An Analytics Manifesto</h4>
 
 <p>Analytics has plodded along long enough.</p>
@@ -110,9 +110,9 @@ It will be open source, and it will be glorious.</p>
   
   <entry>
     <title type="html"><![CDATA[Made in the USA: Making Goods at Home]]></title>
-    <link href="http://genejon.es/blog/2013/04/24/made-in-the-usa-making-goods-at-home/"/>
+    <link href="http://genejon.es/blog/made-in-the-usa-making-goods-at-home/"/>
     <updated>2013-04-24T23:24:00-04:00</updated>
-    <id>http://genejon.es/blog/2013/04/24/made-in-the-usa-making-goods-at-home</id>
+    <id>http://genejon.es/blog/made-in-the-usa-making-goods-at-home</id>
     <content type="html"><![CDATA[<h2>Why Build Domestic?</h2>
 
 <p>Despite my <a href="http://www.genejon.es/blog/international-business/china-rules-consumer-goods/">previous post</a> it still
@@ -182,9 +182,9 @@ Prototypes, rapidly changing fad designs, and 12 hour turnarounds are only possi
   
   <entry>
     <title type="html"><![CDATA[China and Patent Law]]></title>
-    <link href="http://genejon.es/blog/2013/04/24/china-and-patent-law/"/>
+    <link href="http://genejon.es/blog/china-and-patent-law/"/>
     <updated>2013-04-24T23:20:00-04:00</updated>
-    <id>http://genejon.es/blog/2013/04/24/china-and-patent-law</id>
+    <id>http://genejon.es/blog/china-and-patent-law</id>
     <content type="html"><![CDATA[<h2>A Unique Form of Intellectual Property</h2>
 
 <p>China is much maligned on <abbr title="Intellectual Property">IP</abbr> by Western firms.</p>
@@ -220,9 +220,9 @@ Patents, originally used to protect small inventors from being ripped off by lar
   
   <entry>
     <title type="html"><![CDATA[China Rules Consumer Goods]]></title>
-    <link href="http://genejon.es/blog/2013/04/24/china-rules-consumer-goods/"/>
+    <link href="http://genejon.es/blog/china-rules-consumer-goods/"/>
     <updated>2013-04-24T23:19:00-04:00</updated>
-    <id>http://genejon.es/blog/2013/04/24/china-rules-consumer-goods</id>
+    <id>http://genejon.es/blog/china-rules-consumer-goods</id>
     <content type="html"><![CDATA[<h2>How China Rules Consumer Goods</h2>
 
 <p>Made in the USA.</p>
@@ -285,9 +285,9 @@ Patents, originally used to protect small inventors from being ripped off by lar
   
   <entry>
     <title type="html"><![CDATA[A Sane Blog: Switching from Wordpress to Octopress]]></title>
-    <link href="http://genejon.es/blog/2013/04/12/a-sane-blog-switching-from-wordpress-to-octopress/"/>
+    <link href="http://genejon.es/blog/a-sane-blog-switching-from-wordpress-to-octopress/"/>
     <updated>2013-04-12T23:37:00-04:00</updated>
-    <id>http://genejon.es/blog/2013/04/12/a-sane-blog-switching-from-wordpress-to-octopress</id>
+    <id>http://genejon.es/blog/a-sane-blog-switching-from-wordpress-to-octopress</id>
     <content type="html"><![CDATA[<p>In what (<em>hopefully</em>) is my final blog website change before I sit down and actually type some blog posts, I&rsquo;ve migrated over to Octopress.</p>
 
 <h2>Why Did You Move Sites <strong>Again</strong></h2>
@@ -381,9 +381,9 @@ And if that&rsquo;s not an example of the sunk cost fallacy, I don&rsquo;t know 
   
   <entry>
     <title type="html"><![CDATA[Hullo World]]></title>
-    <link href="http://genejon.es/blog/2013/04/12/hullo-world/"/>
+    <link href="http://genejon.es/blog/hullo-world/"/>
     <updated>2013-04-12T14:20:00-04:00</updated>
-    <id>http://genejon.es/blog/2013/04/12/hullo-world</id>
+    <id>http://genejon.es/blog/hullo-world</id>
     <content type="html"><![CDATA[<p>Hullo World, I setup an Octopress site!</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>

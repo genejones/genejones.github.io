@@ -4,7 +4,7 @@
   <title><![CDATA[Category: code | My Blog]]></title>
   <link href="http://genejon.es/blog/categories/code/atom.xml" rel="self"/>
   <link href="http://genejon.es/"/>
-  <updated>2013-11-10T02:59:48-05:00</updated>
+  <updated>2013-11-10T03:35:26-05:00</updated>
   <id>http://genejon.es/</id>
   <author>
     <name><![CDATA[Gene Jones]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[A Sane Blog: Switching from Wordpress to Octopress]]></title>
-    <link href="http://genejon.es/blog/2013/04/12/a-sane-blog-switching-from-wordpress-to-octopress/"/>
+    <link href="http://genejon.es/blog/a-sane-blog-switching-from-wordpress-to-octopress/"/>
     <updated>2013-04-12T23:37:00-04:00</updated>
-    <id>http://genejon.es/blog/2013/04/12/a-sane-blog-switching-from-wordpress-to-octopress</id>
+    <id>http://genejon.es/blog/a-sane-blog-switching-from-wordpress-to-octopress</id>
     <content type="html"><![CDATA[<p>In what (<em>hopefully</em>) is my final blog website change before I sit down and actually type some blog posts, I&rsquo;ve migrated over to Octopress.</p>
 
 <h2>Why Did You Move Sites <strong>Again</strong></h2>
