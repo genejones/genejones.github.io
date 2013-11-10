@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://genejon.es/sitemap.xml 

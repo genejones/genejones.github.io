@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Blog]]></title>
+  <link href="http://genejon.es/atom.xml" rel="self"/>
+  <link href="http://genejon.es/"/>
+  <updated>2013-11-10T02:57:06-05:00</updated>
+  <id>http://genejon.es/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
