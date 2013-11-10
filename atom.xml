@@ -1,24 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Blog]]></title>
-  <link href="http://genejon.es/atom.xml" rel="self"/>
-  <link href="http://genejon.es/"/>
-  <updated>2013-11-10T03:57:12-05:00</updated>
-  <id>http://genejon.es/</id>
-  <author>
-    <name><![CDATA[Gene Jones]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+	<title><![CDATA[My Blog]]></title>
+	<link href="http://genejon.es/atom.xml" rel="self"/>
+	<link href="http://genejon.es/"/>
+	<updated>2013-11-10T04:16:37-05:00</updated>
+	<id>http://genejon.es/</id>
+	<author>
+		<name><![CDATA[Gene Jones]]></name>
+		
+	</author>
+	<generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Analytics Manifesto]]></title>
-    <link href="http://genejon.es/blog/analytics-manifesto/"/>
-    <updated>2013-05-24T10:44:00-04:00</updated>
-    <id>http://genejon.es/blog/analytics-manifesto</id>
-    <content type="html"><![CDATA[<h4>An Analytics Manifesto</h4>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Analytics Manifesto]]></title>
+		
+		<link href="http://genejon.es/blog/analytics-manifesto/"/>
+		<updated>2013-05-24T10:44:00-04:00</updated>
+		<id>http://genejon.es/blog/analytics-manifesto</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<h4>An Analytics Manifesto</h4>
 
 <p>Analytics has plodded along long enough.</p>
 
@@ -105,15 +113,24 @@ I&rsquo;d like to think of the list above as similar to Crockford&rsquo;s JS cod
 
 <p>I hope to build a simple analytics tracker with these aims over the summer.<br/>
 It will be open source, and it will be glorious.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Made in the USA: Making Goods at Home]]></title>
-    <link href="http://genejon.es/blog/made-in-the-usa-making-goods-at-home/"/>
-    <updated>2013-04-24T23:24:00-04:00</updated>
-    <id>http://genejon.es/blog/made-in-the-usa-making-goods-at-home</id>
-    <content type="html"><![CDATA[<h2>Why Build Domestic?</h2>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Made in the USA: Making Goods at Home]]></title>
+		
+		<link href="http://genejon.es/blog/made-in-the-usa-making-goods-at-home/"/>
+		<updated>2013-04-24T23:24:00-04:00</updated>
+		<id>http://genejon.es/blog/made-in-the-usa-making-goods-at-home</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<h2>Why Build Domestic?</h2>
 
 <p>Despite my <a href="http://www.genejon.es/blog/international-business/china-rules-consumer-goods/">previous post</a> it still
 makes sense to make consumer goods in the US.</p>
@@ -177,15 +194,24 @@ If you got the design wrong, or they messed it up, it&rsquo;s a ton easier to ge
 Prototypes, rapidly changing fad designs, and 12 hour turnarounds are only possible domestically.</p>
 
 <p>I&rsquo;d like to note that quick changes are an easy place to innovate in hardware, where designs often remain the same for decades.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[China and Patent Law]]></title>
-    <link href="http://genejon.es/blog/china-and-patent-law/"/>
-    <updated>2013-04-24T23:20:00-04:00</updated>
-    <id>http://genejon.es/blog/china-and-patent-law</id>
-    <content type="html"><![CDATA[<h2>A Unique Form of Intellectual Property</h2>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[China and Patent Law]]></title>
+		
+		<link href="http://genejon.es/blog/china-and-patent-law/"/>
+		<updated>2013-04-24T23:20:00-04:00</updated>
+		<id>http://genejon.es/blog/china-and-patent-law</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<h2>A Unique Form of Intellectual Property</h2>
 
 <p>China is much maligned on <abbr title="Intellectual Property">IP</abbr> by Western firms.</p>
 
@@ -215,15 +241,24 @@ Patents, originally used to protect small inventors from being ripped off by lar
 <p>In China, they follow the <a href="http://en.wikipedia.org/wiki/Beerware">beerware</a> model. It relies upon a shared community ethos rather than a strict legal system. Will this system last?</p>
 
 <p>Nobody knows. But it&rsquo;s better than <a href="http://arstechnica.com/tech-policy/2013/04/meet-the-nice-guy-lawyers-who-want-1000-per-worker-for-using-scanners/">getting sued for using a scanner</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[China Rules Consumer Goods]]></title>
-    <link href="http://genejon.es/blog/china-rules-consumer-goods/"/>
-    <updated>2013-04-24T23:19:00-04:00</updated>
-    <id>http://genejon.es/blog/china-rules-consumer-goods</id>
-    <content type="html"><![CDATA[<h2>How China Rules Consumer Goods</h2>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[China Rules Consumer Goods]]></title>
+		
+		<link href="http://genejon.es/blog/china-rules-consumer-goods/"/>
+		<updated>2013-04-24T23:19:00-04:00</updated>
+		<id>http://genejon.es/blog/china-rules-consumer-goods</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<h2>How China Rules Consumer Goods</h2>
 
 <p>Made in the USA.</p>
 
@@ -280,15 +315,24 @@ Patents, originally used to protect small inventors from being ripped off by lar
 <p>Not all of the above are bad things. I certainly want to make more than $20 an hour (and in fact, I do), and I like knowing my office lacks amenities like asbestos. But they sure make it hard to compete with China on consumer goods outside of niche areas.</p>
 
 <p>There are many risks to outsourcing, but never forget that it&rsquo;s very risky to do business in the US too. It&rsquo;s a familiar risk, a risk we are acclimated to, and thus a <a href="http://en.wikipedia.org/wiki/Risk_compensation">risk we should be all the more fearful of</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[A Sane Blog: Switching from Wordpress to Octopress]]></title>
-    <link href="http://genejon.es/blog/a-sane-blog-switching-from-wordpress-to-octopress/"/>
-    <updated>2013-04-12T23:37:00-04:00</updated>
-    <id>http://genejon.es/blog/a-sane-blog-switching-from-wordpress-to-octopress</id>
-    <content type="html"><![CDATA[<p>In what (<em>hopefully</em>) is my final blog website change before I sit down and actually type some blog posts, I&rsquo;ve migrated over to Octopress.</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[A Sane Blog: Switching from Wordpress to Octopress]]></title>
+		
+		<link href="http://genejon.es/blog/a-sane-blog-switching-from-wordpress-to-octopress/"/>
+		<updated>2013-04-12T23:37:00-04:00</updated>
+		<id>http://genejon.es/blog/a-sane-blog-switching-from-wordpress-to-octopress</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>In what (<em>hopefully</em>) is my final blog website change before I sit down and actually type some blog posts, I&rsquo;ve migrated over to Octopress.</p>
 
 <h2>Why Did You Move Sites <strong>Again</strong></h2>
 
@@ -376,21 +420,31 @@ And the <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-T
 <p>I learned how to do a Ruby install on Windows for you, Octopress.
 I&rsquo;m never going to give you up now.<br/>
 And if that&rsquo;s not an example of the sunk cost fallacy, I don&rsquo;t know what is.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hullo World]]></title>
-    <link href="http://genejon.es/blog/hullo-world/"/>
-    <updated>2013-04-12T14:20:00-04:00</updated>
-    <id>http://genejon.es/blog/hullo-world</id>
-    <content type="html"><![CDATA[<p>Hullo World, I setup an Octopress site!</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Hullo World]]></title>
+		
+		<link href="http://genejon.es/blog/hullo-world/"/>
+		<updated>2013-04-12T14:20:00-04:00</updated>
+		<id>http://genejon.es/blog/hullo-world</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>Hullo World, I setup an Octopress site!</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Hullo World&quot;</span><span class="p">);</span>
 </span></code></pre></td></tr></table></div></figure>
 
-]]></content>
-  </entry>
-  
+]]>
+		</content>
+	</entry>
+	
 </feed>
