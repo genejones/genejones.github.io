@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: analytics | My Blog]]></title>
+  <link href="http://genejon.es/blog/categories/analytics/atom.xml" rel="self"/>
+  <link href="http://genejon.es/"/>
+  <updated>2013-11-10T02:59:48-05:00</updated>
+  <id>http://genejon.es/</id>
+  <author>
+    <name><![CDATA[Gene Jones]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Analytics Manifesto]]></title>
+    <link href="http://genejon.es/blog/2013/05/24/analytics-manifesto/"/>
+    <updated>2013-05-24T10:44:00-04:00</updated>
+    <id>http://genejon.es/blog/2013/05/24/analytics-manifesto</id>
+    <content type="html"><![CDATA[<h4>An Analytics Manifesto</h4>
+
+<p>Analytics has plodded along long enough.</p>
+
+<h5>Time to kick it up a notch.</h5>
+
+<hr />
+
+<!--more-->
+
+
+<h3>Manifesto for Providers:</h3>
+
+<ul>
+<li>Best practices only.
+
+<ul>
+<li>Use REST. HTTP POST &amp; PUT only. GET should never be used to give data to the server.</li>
+<li>Use JSON. Use JSON. Use JSON.</li>
+<li>Look at other JS best practices.</li>
+<li>Your Client-side API should be a JS object. <code>collector.customVar = 'hello world'</code> is easy</li>
+</ul>
+</li>
+<li>Make the simplest thing that works, then make it expandable.</li>
+<li>Focus on one thing, do it well.</li>
+<li>Be unique. We already have Google Analytics, SiteCat, and others.</li>
+<li>Have an easy (less than 5 minutes) setup.</li>
+<li>Reflect Reality.
+
+<ul>
+<li>Users have many devices.</li>
+<li>Users have ADHD.</li>
+<li>Users don&rsquo;t care about your definition of a session.</li>
+</ul>
+</li>
+<li>Be privacy concerned.
+
+<ul>
+<li>Use 1st party cookies.</li>
+<li>Allow opt-out with:
+
+<ul>
+<li>DNT</li>
+<li>no-follow cookies</li>
+<li>plugins.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Be human readable. It eases adoption by coders, analysts, and helps consumers understand you aren&rsquo;t evil.</li>
+<li>Don&rsquo;t use the work &lsquo;track&rsquo;. It sounds like you are hunting the end-users. &lsquo;Observe&rsquo; is better.</li>
+<li>Better no data than terrible data.</li>
+<li>Never trust client code. See above rule for why.</li>
+<li>Use a schema to validate data. Update schema.</li>
+<li>Changes should be easy.</li>
+<li>Changes should not break anything.</li>
+<li>Make sure changes don&rsquo;t break anything with unit tests.</li>
+<li>Auto-scale. EC2, duh!</li>
+<li>AJAX is a thing.</li>
+<li>Because AJAX is a thing, There are no pages. Only views.</li>
+<li>There are no events. Only updates to views.</li>
+</ul>
+
+
+<h3>Manifesto for Customers:</h3>
+
+<ul>
+<li>Own Data. Never rent data.</li>
+<li>Open Code is easy to fix, easy to test.</li>
+<li>The site changes, therefore the analytics changes.</li>
+</ul>
+
+
+<h3>Impossible Goals</h3>
+
+<p>Yes, most of this page is not commercially viable.<br/>
+That&rsquo;s not the purpose of this page.</p>
+
+<p>The purpose is to show what I think we should aspire to.</p>
+
+<p>I&rsquo;m a bit of a jerk about it, and don&rsquo;t take anything as an absolute.
+I&rsquo;d like to think of the list above as similar to Crockford&rsquo;s JS coding style guides: some rules  <strong>must</strong> be followed, some rules <em>might</em> be followed, and some rules are <em>stupid</em>.</p>
+
+<p>Feel free to critique.</p>
+
+<p>I hope to build a simple analytics tracker with these aims over the summer.<br/>
+It will be open source, and it will be glorious.</p>
+]]></content>
+  </entry>
+  
+</feed>

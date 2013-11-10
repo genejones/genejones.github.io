@@ -1,0 +1,306 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>A Sane Blog: Switching from Wordpress to Octopress - My Blog</title>
+  <meta name="author" content="Gene Jones">
+
+  
+  <meta name="description" content="In what (hopefully) is my final blog website change before I sit down and actually type some blog posts, I&rsquo;ve migrated over to Octopress. Why &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://genejon.es/blog/2013/04/12/a-sane-blog-switching-from-wordpress-to-octopress">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="My Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">My Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:genejon.es" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">A Sane Blog: Switching From Wordpress to Octopress</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-12T23:37:00-04:00" pubdate data-updated="true">Apr 12<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>In what (<em>hopefully</em>) is my final blog website change before I sit down and actually type some blog posts, I&rsquo;ve migrated over to Octopress.</p>
+
+<h2>Why Did You Move Sites <strong>Again</strong></h2>
+
+<p>I used to host this site with Wordpress, powered by the good folk over at <a href="https://www.nearlyfreespeech.net/">NearlyFreespeech</a> (who offer fantastically cheap rates).
+But while Wordpress had a great community, constant bug fixes, and millions of tutorials, there was always something that felt wrong.</p>
+
+<!--more-->
+
+
+<p>Wordpress always struck me a little odd.</p>
+
+<ul>
+<li>Wordpress can be slow</li>
+<li>It was expensive to host, due to</li>
+<li>a database requirement</li>
+<li>Wordpress is a complicated beast, and writing even a basic theme is the task of many a tutorial.</li>
+<li>Wordpress can have tons of security vulnerabilities.</li>
+</ul>
+
+
+<p>Worst of all, <em>Wordpress is written in <strong>PHP</strong></em>, the <em><a href="http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/">devil&rsquo;s programming language</a></em>.</p>
+
+<p>I once wrote a site in PHP. Once.</p>
+
+<blockquote><p>How can you even be a PHP programmer without a sense of humor? You write PHP. That&#8217;s hilarious.</p><footer><strong>@codinghorror</strong> <cite><a href='https://twitter.com/codinghorror/status/224269282396225536'>twitter.com/codinghorror/status/&hellip;</a></cite></footer></blockquote>
+
+
+<p>How could I ever make changes to a PHP powered site, and keep myself sane?</p>
+
+<p>I looked around for alternatives for quite some time, and it seemed my search was in vain.</p>
+
+<p>I have a&hellip;<em>unique</em> list of requirements for a blog framework:</p>
+
+<ul>
+<li>I need the ability to self host. It can be on someone else&rsquo;s server, but I need the HTML to be on my hard drive, scattered on random flash drives. I don&rsquo;t want a host to go under and lose all my work. I even run my <a href="yourls.org">own link shortner, YOURLS</a>, for fear of VC money running out at all the main link shortening firms. A Tumblr was out of the question. I eventually conceded that <a href="http://genejones.quora.com">Quora</a> makes for a decent micro-blogging platform, but I still needed a full-sized blog.</li>
+<li>Custom domains are a must. The domain hack of GeneJon.es (<a href="http://en.wikipedia.org/wiki/.es">thanks Spain!</a>) is too good to pass up. A ton of hosted sites only allow for .net, .com, and other boring TLDs, so they were a no-go.</li>
+<li>I like Open source, and might want to tweak a few things under the hood later.</li>
+</ul>
+
+
+<p>Eventually I found a few flat-file blog frameworks, but they lacked something I desperately needed: good looking themes.</p>
+
+<p>I&rsquo;ve been cursed by having a graphic designer for a mother.
+In my primitive youth, I once considered Adobe Indesign <em>a fun computer game</em>.
+I know some of typography, even if by accident of my birth. I can see good design, and I appreciate it.
+I loathed the crappy 2004 era themes that the flat-file frameworks offered me.
+I harshly judged sites with similiar appeareance.
+I love substance in a blog, yes, but I stay for style of all kinds: style in the theme, style in the writing, style of personality.<br/>
+But while I can <em>see</em> good design, I am not very good at <em>making</em> good design.</p>
+
+<p>CSS isn&rsquo;t my strong suite.
+After spending hours upon hours trying to learn it&rsquo;s intricacies only to end up with horrible, miserable looking webpages, I conceded defeat.
+Moreover, the idea of taking an existing theme, and smushing another framework into it, was abhorent to me (and time consuming).</p>
+
+<h4>Finding Octopress</h4>
+
+<p>Eventually I heard of something called Jeykll. It seemed like a cool idea, but it also seemed like a ton of work.</p>
+
+<p>After attending a few Javascript meetups, I decided to embark on the creation of a staticly hosted Single Page Application.
+It would be the Apex of Ajax. I even kinda-sorta <a href="https://github.com/genejones/north-american-hipster">got it to work</a> before I tired of feeding the Javascript, and returned to the safety of Python.
+A Django blog seemed like such overkill as to be laughable, and the formatting would have sucked.
+My ego is not sufficient to suffer with a terrible blog site backend just because I wrote it.</p>
+
+<p>I resigned myself to Wordpress.
+It wouldn&rsquo;t be so bad, look at all those features!
+But I still lingered for more.</p>
+
+<p>As I kept seeing more and more sites hosted on github, it was obvious there was some kind of framework behind this upswell.
+And then, low and behold: &ldquo;Powered by <a href="octopress.org">Octopress</a>&rdquo;. It was perfect.</p>
+
+<p>Octopress has a nice theme out of the box, much like Wordpress does.
+And the <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">Third Party themes</a> are even better, and more are being created constantly as new folks join on the Octopress bandwagon.</p>
+
+<p>I found the <a href="https://github.com/sevenadrian/foxslide">FoxSlide theme</a> and here we are.</p>
+
+<p>All this text without even mentioning all the technical benefits. When it comes to a personal blog, <a href="http://highscalability.com/blog/2011/8/22/strategy-run-a-scalable-available-and-cheap-static-site-on-s.html"><strong>Go Static or Go Home</strong></a> (really).</p>
+
+<ul>
+<li>CDN, caching, etc. make static sites <em>blazing fast</em></li>
+<li>Revision Control? Heck yes!</li>
+<li>Simple text files. Beautiful, editable text files.</li>
+</ul>
+
+
+<p>I learned how to do a Ruby install on Windows for you, Octopress.
+I&rsquo;m never going to give you up now.<br/>
+And if that&rsquo;s not an example of the sunk cost fallacy, I don&rsquo;t know what is.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Gene Jones</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-12T23:37:00-04:00" pubdate data-updated="true">Apr 12<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/code/'>code</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://genejon.es/blog/2013/04/12/a-sane-blog-switching-from-wordpress-to-octopress/" data-via="" data-counturl="http://genejon.es/blog/2013/04/12/a-sane-blog-switching-from-wordpress-to-octopress/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/04/12/hullo-world/" title="Previous Post: Hullo World">&laquo; Hullo World</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/04/24/china-rules-consumer-goods/" title="Next Post: China Rules Consumer Goods">China Rules Consumer Goods &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/05/24/analytics-manifesto/">Analytics Manifesto</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/24/made-in-the-usa-making-goods-at-home/">Made in the USA: Making Goods at Home</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/24/china-and-patent-law/">China and Patent Law</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/24/china-rules-consumer-goods/">China Rules Consumer Goods</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/12/a-sane-blog-switching-from-wordpress-to-octopress/">A Sane Blog: Switching From Wordpress to Octopress</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Gene Jones -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

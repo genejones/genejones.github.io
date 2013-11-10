@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: international-business | My Blog]]></title>
+  <link href="http://genejon.es/blog/categories/international-business/atom.xml" rel="self"/>
+  <link href="http://genejon.es/"/>
+  <updated>2013-11-10T02:59:48-05:00</updated>
+  <id>http://genejon.es/</id>
+  <author>
+    <name><![CDATA[Gene Jones]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Made in the USA: Making Goods at Home]]></title>
+    <link href="http://genejon.es/blog/2013/04/24/made-in-the-usa-making-goods-at-home/"/>
+    <updated>2013-04-24T23:24:00-04:00</updated>
+    <id>http://genejon.es/blog/2013/04/24/made-in-the-usa-making-goods-at-home</id>
+    <content type="html"><![CDATA[<h2>Why Build Domestic?</h2>
+
+<p>Despite my <a href="http://www.genejon.es/blog/international-business/china-rules-consumer-goods/">previous post</a> it still
+makes sense to make consumer goods in the US.</p>
+
+<p>Just to be clear: I am talking real, physical goods here, not software or services.</p>
+
+<h4><strong>Sometimes</strong></h4>
+
+<p>When does it make sense?</p>
+
+<!--more-->
+
+
+<h5>When it&rsquo;s patriotic</h5>
+
+<p>Surround your pullquote like this {" text to be quoted "}</p>
+
+<h5>When your product needs absolute security.</h5>
+
+<p>National security is a big issue here.
+With as much of the US economy being part of the military industrial complex, it can be illegal to source parts from China.</p>
+
+<p>When you can&rsquo;t risk the slightest possible leak, make everyone sign an NDA, threaten to ruin their life if they leak, and then pay well.<br/>
+OK, but how many non-military contractor products are truly revolutionary enough to warrant tight security?<br/>
+Sure, Apple loves to keep everyone in the dark until the last possible second (as part of their bizare, yet successful marketing strategy).
+Who else? No-one? Security is not, outside of national security or unusual circumstances, a major consideration.</p>
+
+<h5>Safety and Quality</h5>
+
+<p>For obvious reasons, foodstuffs are made in the US or Canada. Food spoils, and few want to trust Chinese manufacture with their mouths after various scams.</p>
+
+<p>Highly precise manufacturing also tends to remain in the US or Germany for similiar reasons.</p>
+
+<h5>Small Business</h5>
+
+<p>International Business is hard work. It takes experience, it takes technology, and it takes an open mind. It requires capital, mistakes, and tears.</p>
+
+<p>A small business often can&rsquo;t afford to internationalize. The economies of scale aren&rsquo;t there, inventory headaches can be fatal, and it distracts form their core competencies.</p>
+
+<p>Some startups are designed to scale globally from the ground up. Bully for them, but Mom &amp; Pop stores will continue for a long time.</p>
+
+<p>Take a look at <a href="http://kickstarter.com">Kickstarter</a>; nearly all of those projects, if funded, will be built in someone&rsquo;s garage. The funded individuals will have a hard enough time running a business in their garage, running an international combination of effort will be beyond them.</p>
+
+<h5>Local Goods</h5>
+
+<p>Some goods will never make economic sense to ship across an ocean, regardless of labor costs.</p>
+
+<h5>Customization</h5>
+
+<p>Oh, you wanted 5 of something, rather than 5,000? Yeah, domestic is the way to go.
+If you got the design wrong, or they messed it up, it&rsquo;s a ton easier to get changes made.</p>
+
+<p>Customization is hard enough without adding cross-cultural barriers.</p>
+
+<h5>Frequent Iteration</h5>
+
+<p>Similiar to the above, it&rsquo;s impossible to make rapid changes to anything if you have a 20,000 mile supply chain.
+Prototypes, rapidly changing fad designs, and 12 hour turnarounds are only possible domestically.</p>
+
+<p>I&rsquo;d like to note that quick changes are an easy place to innovate in hardware, where designs often remain the same for decades.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[China and Patent Law]]></title>
+    <link href="http://genejon.es/blog/2013/04/24/china-and-patent-law/"/>
+    <updated>2013-04-24T23:20:00-04:00</updated>
+    <id>http://genejon.es/blog/2013/04/24/china-and-patent-law</id>
+    <content type="html"><![CDATA[<h2>A Unique Form of Intellectual Property</h2>
+
+<p>China is much maligned on <abbr title="Intellectual Property">IP</abbr> by Western firms.</p>
+
+<h3>Western IP is a Failure</h3>
+
+<p>Arguably, China has a better IP model than do.</p>
+
+<!--more-->
+
+
+<p>The whole idea of Western patent protectionism is generally absurd.
+Patents, originally used to protect small inventors from being ripped off by large companies, have been transformed to steal from them.
+ Companies like IBM, Microsoft, and Apple have upwards of 30,000 patents apiece, which they use to force cross-licensing agreements with smaller firms.
+ Copyright has been distorted into an eternal monopoly, rather than a limited exemption from the public domain.</p>
+
+<p> Patent trolls attack with impunity, waiting until patents nearly expire and then claiming that basic, incredibly obvious ideas like shopping carts are ground-breaking innovations that require millions in payments. The USPTO is so bad at granting stupidly obvious applications that they are <a href="http://www.bbc.co.uk/news/technology-19672986">now asking for crowdsourcing</a> of patent invalidation.</p>
+
+<p> Is it any wonder patent law is one of the best paying fields in America?</p>
+
+<p><blockquote><p>I&rsquo;m willing to go thermonuclear war on this</p><footer><strong>Steve Jobs</strong></footer></blockquote></p>
+
+<p>Steve Jobs wasn&rsquo;t talking about nukes. He was talking about patents.</p>
+
+<h3>A More Excellent Way</h3>
+
+<p>In China, they follow the <a href="http://en.wikipedia.org/wiki/Beerware">beerware</a> model. It relies upon a shared community ethos rather than a strict legal system. Will this system last?</p>
+
+<p>Nobody knows. But it&rsquo;s better than <a href="http://arstechnica.com/tech-policy/2013/04/meet-the-nice-guy-lawyers-who-want-1000-per-worker-for-using-scanners/">getting sued for using a scanner</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[China Rules Consumer Goods]]></title>
+    <link href="http://genejon.es/blog/2013/04/24/china-rules-consumer-goods/"/>
+    <updated>2013-04-24T23:19:00-04:00</updated>
+    <id>http://genejon.es/blog/2013/04/24/china-rules-consumer-goods</id>
+    <content type="html"><![CDATA[<h2>How China Rules Consumer Goods</h2>
+
+<p>Made in the USA.</p>
+
+<p>It&rsquo;s a funny statement, mostly because of how few consumer goods are <em>made in the USA</em>.</p>
+
+<p>As a child born in the 90&rsquo;s, I can only remember a few products with that origin label. My toys started out as &lsquo;Made in Mexico&rsquo;, some of my electronics said &lsquo;Made in Japan&rsquo;; pretty much everything else had the ubiquitous &lsquo;Made in China&rsquo;.</p>
+
+<p>How did nearly all consumer oriented manufacture shift from the US?</p>
+
+<!--more-->
+
+
+<h3>Cheap Labor</h3>
+
+<p>Labor was comparatively expensive here in the US of A. Very, very comparatively expensive.</p>
+
+<p>Without even getting into unions, minimum hourly wage alone makes labor sourcing non-competitive.</p>
+
+<p>Consumer goods are labor intensive. We forget that, we think that robots can do everything, and do it for cheaper than humans.</p>
+
+<p>Now of course, it&rsquo;s impossible to come back.</p>
+
+<h3>Locus of Innovation</h3>
+
+<p>It used to be you made your goods in China because it was cheaper to build them there.</p>
+
+<p>Now, you build in China because it logistically doesn&rsquo;t make any sense to build elsewhere. All parts can be sourced within 30 miles of each other; only exiting that 30 mile block on a shipping container bound for the Western coastline. This tight of an integration is difficult in the US and elsewhere; we simply don&rsquo;t have that central manufacturing zone.</p>
+
+<p>Beyond this, Shenzen has critical mass, a teeming marketplace of innovation. As an electronics hobbyist, 60% of the datasheets I come across have Mandarin on them. The chemical processes, the warehouses, the materials, the practical know-how &mdash; and more &mdash; is there.</p>
+
+<p>We don&rsquo;t know all the tricks anymore. China out innovates us when it comes to making cheap goods. They make a <a href="http://blog.makezine.com/2013/04/22/the-12-cellphone/">$12 cellphone</a> without subsidy or expected carrier return. Sure, the industrial design isn&rsquo;t the best, but that will come with maturity.</p>
+
+<h3>Regulatory Barriers</h3>
+
+<p>If you want to build your next electronic wizmo in the US, go right ahead! Nobody will stop you.</p>
+
+<p>You will, however need to:</p>
+
+<ul>
+<li>Build a factory (which complies to OSHA &amp; EPA standards)</li>
+<li>Source <strong>all</strong> your parts from the US, or risk weeks of delays</li>
+<li>Find people willing to work at your factory
+
+<ul>
+<li>who are skilled at manufacture</li>
+<li>who want $20/hour</li>
+<li>who aren&rsquo;t going to unionize</li>
+</ul>
+</li>
+<li>Deal with lawsuits of all kinds, warranted and unwarranted</li>
+</ul>
+
+
+<p>Not all of the above are bad things. I certainly want to make more than $20 an hour (and in fact, I do), and I like knowing my office lacks amenities like asbestos. But they sure make it hard to compete with China on consumer goods outside of niche areas.</p>
+
+<p>There are many risks to outsourcing, but never forget that it&rsquo;s very risky to do business in the US too. It&rsquo;s a familiar risk, a risk we are acclimated to, and thus a <a href="http://en.wikipedia.org/wiki/Risk_compensation">risk we should be all the more fearful of</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

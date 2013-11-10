@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Analytics Manifesto - My Blog</title>
+  <meta name="author" content="Gene Jones">
+
+  
+  <meta name="description" content="An Analytics Manifesto Analytics has plodded along long enough. Time to kick it up a notch. Manifesto for Providers: Best practices only. Use REST. &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://genejon.es/blog/2013/05/24/analytics-manifesto">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="My Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">My Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:genejon.es" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Analytics Manifesto</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-24T10:44:00-04:00" pubdate data-updated="true">May 24<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h4>An Analytics Manifesto</h4>
+
+<p>Analytics has plodded along long enough.</p>
+
+<h5>Time to kick it up a notch.</h5>
+
+<hr />
+
+<!--more-->
+
+
+<h3>Manifesto for Providers:</h3>
+
+<ul>
+<li>Best practices only.
+
+<ul>
+<li>Use REST. HTTP POST &amp; PUT only. GET should never be used to give data to the server.</li>
+<li>Use JSON. Use JSON. Use JSON.</li>
+<li>Look at other JS best practices.</li>
+<li>Your Client-side API should be a JS object. <code>collector.customVar = 'hello world'</code> is easy</li>
+</ul>
+</li>
+<li>Make the simplest thing that works, then make it expandable.</li>
+<li>Focus on one thing, do it well.</li>
+<li>Be unique. We already have Google Analytics, SiteCat, and others.</li>
+<li>Have an easy (less than 5 minutes) setup.</li>
+<li>Reflect Reality.
+
+<ul>
+<li>Users have many devices.</li>
+<li>Users have ADHD.</li>
+<li>Users don&rsquo;t care about your definition of a session.</li>
+</ul>
+</li>
+<li>Be privacy concerned.
+
+<ul>
+<li>Use 1st party cookies.</li>
+<li>Allow opt-out with:
+
+<ul>
+<li>DNT</li>
+<li>no-follow cookies</li>
+<li>plugins.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Be human readable. It eases adoption by coders, analysts, and helps consumers understand you aren&rsquo;t evil.</li>
+<li>Don&rsquo;t use the work &lsquo;track&rsquo;. It sounds like you are hunting the end-users. &lsquo;Observe&rsquo; is better.</li>
+<li>Better no data than terrible data.</li>
+<li>Never trust client code. See above rule for why.</li>
+<li>Use a schema to validate data. Update schema.</li>
+<li>Changes should be easy.</li>
+<li>Changes should not break anything.</li>
+<li>Make sure changes don&rsquo;t break anything with unit tests.</li>
+<li>Auto-scale. EC2, duh!</li>
+<li>AJAX is a thing.</li>
+<li>Because AJAX is a thing, There are no pages. Only views.</li>
+<li>There are no events. Only updates to views.</li>
+</ul>
+
+
+<h3>Manifesto for Customers:</h3>
+
+<ul>
+<li>Own Data. Never rent data.</li>
+<li>Open Code is easy to fix, easy to test.</li>
+<li>The site changes, therefore the analytics changes.</li>
+</ul>
+
+
+<h3>Impossible Goals</h3>
+
+<p>Yes, most of this page is not commercially viable.<br/>
+That&rsquo;s not the purpose of this page.</p>
+
+<p>The purpose is to show what I think we should aspire to.</p>
+
+<p>I&rsquo;m a bit of a jerk about it, and don&rsquo;t take anything as an absolute.
+I&rsquo;d like to think of the list above as similar to Crockford&rsquo;s JS coding style guides: some rules  <strong>must</strong> be followed, some rules <em>might</em> be followed, and some rules are <em>stupid</em>.</p>
+
+<p>Feel free to critique.</p>
+
+<p>I hope to build a simple analytics tracker with these aims over the summer.<br/>
+It will be open source, and it will be glorious.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Gene Jones</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-24T10:44:00-04:00" pubdate data-updated="true">May 24<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/analytics/'>analytics</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://genejon.es/blog/2013/05/24/analytics-manifesto/" data-via="" data-counturl="http://genejon.es/blog/2013/05/24/analytics-manifesto/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/04/24/made-in-the-usa-making-goods-at-home/" title="Previous Post: Made in the USA: Making Goods at Home">&laquo; Made in the USA: Making Goods at Home</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/05/24/analytics-manifesto/">Analytics Manifesto</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/24/made-in-the-usa-making-goods-at-home/">Made in the USA: Making Goods at Home</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/24/china-and-patent-law/">China and Patent Law</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/24/china-rules-consumer-goods/">China Rules Consumer Goods</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/12/a-sane-blog-switching-from-wordpress-to-octopress/">A Sane Blog: Switching From Wordpress to Octopress</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Gene Jones -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
