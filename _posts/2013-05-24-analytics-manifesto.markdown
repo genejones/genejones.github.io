@@ -2,7 +2,6 @@
 layout: post
 title: "Analytics Manifesto"
 date: 2013-05-24 10:44
-comments: true
 categories: analytics
 ---
 
@@ -11,7 +10,7 @@ categories: analytics
 Analytics has plodded along long enough.  
 #####Time to kick it up a notch.
 ***
-<!--more-->
+
 
 ### Manifesto for Providers:
 

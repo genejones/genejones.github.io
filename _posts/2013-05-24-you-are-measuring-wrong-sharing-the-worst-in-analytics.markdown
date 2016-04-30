@@ -4,7 +4,6 @@ title: "You are Measuring Wrong - sharing the worst in analytics"
 date: 2013-05-24 11:35
 comments: true
 categories: analytics
-published: false
 ---
 
 We've all seen **terrible**, *horrifically bad* analytics work.

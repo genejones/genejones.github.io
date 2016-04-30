@@ -2,9 +2,7 @@
 layout: post
 title: "In Defense of the Zune"
 date: 2013-05-31 11:36
-comments: true
 categories: 
-published: false
 ---
 
 ### In Defense of the Zune
@@ -18,7 +16,6 @@ Inexplicably, the Zune if brought up as some point of ridicule, like it was doom
 I am very proud to raise my hand every time.
 
 The Zune was fantastic.
-<!--more-->
 
 I don't think we fully remember early days, back when iPod had marketshare, but not a total monopoly.
 
