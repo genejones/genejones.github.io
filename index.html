@@ -1,17 +1,63 @@
----
-layout: full-width
-title: blog
-# Note that this index page uses a full-width layout!
----
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Gene Jones</title>
+  <link rel="stylesheet" href="/dist/css/tufte.css"/>
+  <link rel="stylesheet" href="/dist/css/gjones.css"/>
+  <link rel="stylesheet" href="/dist/css/latex.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+	<script type="text/javascript" async
+	src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+	</script>
+</head>
 
-  <h1 class="content-listing-header sans">Articles</h1>
-  <ul class="content-listing ">
-    {% for post in site.posts %}      
-        <li class="listing">
-          <hr class="slender">
-          <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="contrast">{{ post.title }}</h3></a>
-          <br><span class="smaller">{{ post.date | date: "%B %-d, %Y" }}</span>  <br/>
-          <div>{{ post.excerpt }}</div> 
-        </li>
-    {% endfor %}
-  </ul>
+<body>
+	<h1>A Blog</h1>
+	<h2>By Gene Jones</h2>
+  <header>
+    <nav class="group">
+		<a href="about.html">About Me</a>
+		<a href="blog.html">Blog</a>
+	</nav>
+  </header>
+  <hr class="slender"/>
+	<section>
+		<p><span class="newthought">A love affair with code, economics, and footnotes</p>
+		<p><span class="code">console.log("Hello world!")</span> This is my site.
+		<label for="sn-home-snide-note" class="margin-toggle sidenote-number"></label>
+		<input type="checkbox" id="sn-home-snide-note" class="margin-toggle"/><span class="sidenote">Such as a site can be</span>
+		Hopefully you like it?
+		</p>
+    </section>
+	
+	<section>
+	<p>When $life \ne 0$, there are oportunity costs.</p>
+	<p><span class="newthought">Pithy Quote<label for="sn-home-pithy-quote" class="margin-toggle sidenote-number"></label></span></p>
+			<input type="checkbox" id="sn-home-pithy-quote" class="margin-toggle"/><span class="sidenote">As I enjoy a wide variety of quotes (many of them pithy), this will change on every website load</span>
+			
+			<blockquote>
+			  <p>For a successful technology, reality must take precedence over public relations, for Nature cannot be fooled.</p>
+			  <footer>Richard P. Feynman, <cite>“What Do You Care What Other People Think?”</cite></footer>
+			</blockquote>
+	</section>
+	
+    <section>
+      <h2 id="recent-articles">Recent Articles</h2>
+	  <ul class="listing">
+		<li><a href="blog/post.html">Sample Post</a> - April 20th, 2016</li>
+		<li><a href="blog/post.html">Sample Post</a> - </li>
+		<li><a href="blog/post.html">Sample Post</a> - </li>
+	  </ul>
+    </section>
+
+    <section>
+      <h2 id="epilogue">Epilogue</h2>
+      <p>Styling graciously provided by <a href="https://edwardtufte.github.io/tufte-css/">tufte-css</a></p>
+    </section>
+    
+  </article>
+</body>
+</html>

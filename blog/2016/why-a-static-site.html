@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Why A Static Site?</title>
+  <link rel="stylesheet" href="/dist/css/tufte.css"/>
+  <link rel="stylesheet" href="/dist/css/gjones.css"/>
+  <link rel="stylesheet" href="/dist/css/latex.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+	<script type="text/javascript" async
+	src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+	</script>
+</head>
+
+<body>
+	<h1>A Blog</h1>
+	<h2>By Gene Jones</h2>
+  <header>
+    <nav class="group">
+		<a href="about.html">About Me</a>
+		<a href="blog.html">Blog</a>
+	</nav>
+  </header>
+  <hr class="slender"/>
+  <article>
+	<h1>A Static Site</h1>
+	<section>
+		<p><span class="newthought">Why would</span> anyone use a completly static website in this day and age?</p>
+		<p>I got tired of dealing with all the configuration on more complicated sites. I figured that my website was mine, not Wordpress's. I didn't want to spend money or the hours it takes to configure Wordpress or similar.</p>
+		<p>So, in 2013, I moved to a statically generated website which used Octopress. This was OK, but still had some problems. First of all, it wasn't pure Jeykll, so it took some doing to host on Github. And required re-generating the site constantly.</p>
+		<p>Most importantly, after I didn't touch the site for two years (during my mission), I realized I was having a hard time getting my Octopress site to work. Even though Markdown was elegant, I was actually more familiar with HTML and CSS.</p>
+		<p>Simply touching a file, changing it, saving it, and making a git commit was a pretty nice way to do things. Now, for any new post I need to update two pages, which is pretty managable. I may move that logic to Jeykll in the future.</p>
+		<p>HTML also has the benefit of allowing me complete control. I don't have to jury-rig a plugin to do anything, I can just touch the actual code. Now, this is an ugly way to do things, but it is a simple way to do things. And I don't need an overcomplicated system for a blog I plan on updating maybe twice a year.</p>
+		<p>I may move some of the logic to a JS presentation layer later. Then I could just update one area - a JSON object of all the blog posts.
+    </section>
+    
+  </article>
+</body>
+</html>
