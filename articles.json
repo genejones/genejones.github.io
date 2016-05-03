@@ -1,0 +1,22 @@
+var articles = [
+{
+	"url": "blog/2016/why-a-static-site.html",
+	"title": "Why A Static Site?",
+	"date": new Date('April 30, 2016 03:24:00')
+},
+{
+	"url": "blog/2016/why-a-static-site.html",
+	"title": "Why 25 A Static Site?",
+	"date": new Date('April 25, 2016 03:24:00')
+},
+{
+	"url": "blog/2016/why-a-static-site.html",
+	"title": "Why A 15 Static Site?",
+	"date": new Date('April 30, 2015 03:24:00')
+},
+{
+	"url": "blog/2016/why-a-static-site.html",
+	"title": "Why Not A Static Site?",
+	"date": new Date('April 30, 2014 03:24:00')
+}
+];

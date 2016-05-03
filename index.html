@@ -12,10 +12,15 @@
 	<script type="text/javascript" async
 	src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 	</script>
+	
+	<!--<script type="text/javascript" src="/dist/js/jquery-1.12.3.min.js"></script>-->
+	<script type="text/javascript" src="/dist/js/handlebars-v4.0.5.js"></script>
+	<script type="text/javascript" src="/dist/js/swag.min.js"></script>
+	<script type="text/javascript" src="/articles.json"></script>
 </head>
 
 <body>
-	<h1>A Blog</h1>
+	<a href="/" style="text-decoration:none"><h1>A Blog</h1></a>
 	<h2>By Gene Jones</h2>
   <header>
     <nav class="group">
@@ -23,41 +28,66 @@
 		<a href="blog.html">Blog</a>
 	</nav>
   </header>
-  <hr class="slender"/>
-	<section>
-		<p><span class="newthought">A love affair with code, economics, and footnotes</p>
-		<p><span class="code">console.log("Hello world!")</span> This is my site.
-		<label for="sn-home-snide-note" class="margin-toggle sidenote-number"></label>
-		<input type="checkbox" id="sn-home-snide-note" class="margin-toggle"/><span class="sidenote">Such as a site can be</span>
-		Hopefully you like it?
-		</p>
-    </section>
-	
-	<section>
-	<p>When $life \ne 0$, there are oportunity costs.</p>
-	<p><span class="newthought">Pithy Quote<label for="sn-home-pithy-quote" class="margin-toggle sidenote-number"></label></span></p>
-			<input type="checkbox" id="sn-home-pithy-quote" class="margin-toggle"/><span class="sidenote">As I enjoy a wide variety of quotes (many of them pithy), this will change on every website load</span>
-			
-			<blockquote>
-			  <p>For a successful technology, reality must take precedence over public relations, for Nature cannot be fooled.</p>
-			  <footer>Richard P. Feynman, <cite>“What Do You Care What Other People Think?”</cite></footer>
-			</blockquote>
-	</section>
-	
-    <section>
-      <h2 id="recent-articles">Recent Articles</h2>
-	  <ul class="listing">
-		<li><a href="blog/post.html">Sample Post</a> - April 20th, 2016</li>
-		<li><a href="blog/post.html">Sample Post</a> - </li>
-		<li><a href="blog/post.html">Sample Post</a> - </li>
-	  </ul>
-    </section>
+  <article>
+	  <hr class="slender"/>
+		<section>
+			<p><span class="newthought">A love affair with code, economics, and footnotes</p>
+			<p><span class="code">console.log("Hello world!")</span> This is my site.
+			<label for="sn-home-snide-note" class="margin-toggle sidenote-number"></label>
+			<input type="checkbox" id="sn-home-snide-note" class="margin-toggle"/><span class="sidenote">Such as a site can be</span>
+			Hopefully you like it?
+			</p>
+		</section>
+		
+		<section>
+			<h2 id="recent-articles-header">Recent Articles</h2>
+			<ul id="recent-articles" class="listing">
+			</ul>
+			<script id="beacon-template-recent-list" type="text/x-handlebars-template">
+				{{#each articles}}
+					<li><a href="{{url}}">{{truncate title 35 "..."}}</a> - {{formatDate date "%B %e, %Y"}} - {{timeago date}} </li>
+				{{/each}}
+			</script>
+		</section>
+		
+		<section>
+		<p>When $life \ne 0$, there are oportunity costs.</p>
+		<p><span class="newthought">Pithy Quote<label for="sn-home-pithy-quote" class="margin-toggle sidenote-number"></label></span></p>
+				<input type="checkbox" id="sn-home-pithy-quote" class="margin-toggle"/><span class="sidenote">As I enjoy a wide variety of quotes (many of them pithy), this will change on every website load</span>
+				
+				<blockquote>
+				  <p>For a successful technology, reality must take precedence over public relations, for Nature cannot be fooled.</p>
+				  <footer>Richard P. Feynman, <cite>“What Do You Care What Other People Think?”</cite></footer>
+				</blockquote>
+		</section>
 
-    <section>
-      <h2 id="epilogue">Epilogue</h2>
-      <p>Styling graciously provided by <a href="https://edwardtufte.github.io/tufte-css/">tufte-css</a></p>
-    </section>
+		<section>
+		  <h2 id="epilogue">Epilogue</h2>
+		  <p>Styling graciously provided by <a href="https://edwardtufte.github.io/tufte-css/">tufte-css</a>.</p>
+		  <p>Additional css-styling taken from <a href="https://github.com/clayh53/tufte-jekyll">jekyll-tufte</a>, and customized a bit.</p>
+		</section>
     
-  </article>
+	</article>
+	<script type="text/javascript">
+		var source = document.getElementById('beacon-template-recent-list');
+		Swag.registerHelpers(Handlebars);
+		var template = Handlebars.compile(source.innerHTML);
+		var get_most_x_recent_articles = function (articles, number_of_most_recent){
+			var art = articles.sort(function(a, b) {
+			  if (a.date < b.date){ return 1;}
+			  if (a.date > b.date){ return -1;}
+			});
+			if (number_of_most_recent >= art.length) {
+				var slice_num = art.length;
+			}
+			else {
+				var slice_num = number_of_most_recent;
+			}
+			return art.splice(0, slice_num);
+		}
+		var context = {articles: get_most_x_recent_articles(articles, 3)};
+		var html  = template(context);
+		document.getElementById('recent-articles').innerHTML = html;
+	</script>
 </body>
 </html>
