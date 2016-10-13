@@ -2,9 +2,9 @@
 <head>
   <meta charset="utf-8"/>
   <title>Gene Jones</title>
-  <link rel="stylesheet" href="/dist/css/tufte.css"/>
-  <link rel="stylesheet" href="/dist/css/gjones.css"/>
-  <link rel="stylesheet" href="/dist/css/latex.css"/>
+  <link rel="stylesheet" href="/tufte.css"/>
+  <link rel="stylesheet" href="/gjones.css"/>
+  <link rel="stylesheet" href="/latex.css"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	<script type="text/x-mathjax-config">
 	MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
@@ -12,8 +12,6 @@
 	<script type="text/javascript" async
 	src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 	</script>
-	
-	<!--<script type="text/javascript" src="/dist/js/jquery-1.12.3.min.js"></script>-->
 	<script type="text/javascript" src="/dist/js/handlebars-v4.0.5.js"></script>
 	<script type="text/javascript" src="/dist/js/swag.min.js"></script>
 	<script type="text/javascript" src="/articles.json"></script>
@@ -25,16 +23,15 @@
   <header>
     <nav class="group">
 		<a href="about.html">About Me</a>
-		<a href="blog.html">Blog</a>
+		<a href="archive.html">Archive</a>
 	</nav>
   </header>
   <article>
 	  <hr class="slender"/>
 		<section>
 			<p><span class="newthought">A love affair with code, economics, and footnotes</p>
-			<p><span class="code">console.log("Hello world!")</span> This is my site.
-			<label for="sn-home-snide-note" class="margin-toggle sidenote-number"></label>
-			<input type="checkbox" id="sn-home-snide-note" class="margin-toggle"/><span class="sidenote">Such as a site can be</span>
+			<pre class="code">console.log("Hello world!")</pre>
+			<p>This is my site.
 			Hopefully you like it?
 			</p>
 		</section>
@@ -51,10 +48,10 @@
 		</section>
 		
 		<section>
-		<p>When $life \ne 0$, there are oportunity costs.</p>
-		<p><span class="newthought">Pithy Quote<label for="sn-home-pithy-quote" class="margin-toggle sidenote-number"></label></span></p>
-				<input type="checkbox" id="sn-home-pithy-quote" class="margin-toggle"/><span class="sidenote">As I enjoy a wide variety of quotes (many of them pithy), this will change on every website load</span>
-				
+		<p>If we make the assumption that $money = \infty$...</p>
+		<p><span class="newthought">Pithy Quote<label for="sn-home-pithy-quote" class="margin-toggle sidenote-number"></label></span>
+				<input type="checkbox" id="sn-home-pithy-quote" class="margin-toggle"/><span class="sidenote">As I enjoy a wide variety of quotes (many of them pithy), this will change often</span>
+				</p>
 				<blockquote>
 				  <p>For a successful technology, reality must take precedence over public relations, for Nature cannot be fooled.</p>
 				  <footer>Richard P. Feynman, <cite>“What Do You Care What Other People Think?”</cite></footer>
@@ -62,9 +59,12 @@
 		</section>
 
 		<section>
-		  <h2 id="epilogue">Epilogue</h2>
+		  <h2 id="epilogue">About the Site</h2>
+		  <p>This website is statically generated<label for="sn-home-static" class="margin-toggle sidenote-number"></label>...by my fingers typing into the keyboard.
+		  <input type="checkbox" id="sn-home-static" class="margin-toggle"/><span class="sidenote">See <a href="/blog/2016/why-a-static-site.html">why I chose a static site</a>. Also see my <a href="/blog/2016/dynamic-static-sites-with-js.html">JS code which allows for dynamic portions</a> of a static website.</span>
+		  </p>
 		  <p>Styling graciously provided by <a href="https://edwardtufte.github.io/tufte-css/">tufte-css</a>.</p>
-		  <p>Additional css-styling taken from <a href="https://github.com/clayh53/tufte-jekyll">jekyll-tufte</a>, and customized a bit.</p>
+		  <p>Additional css-styling taken from <a href="https://github.com/clayh53/tufte-jekyll">jekyll-tufte</a>, with a few personal tweaks.</p>
 		</section>
     
 	</article>

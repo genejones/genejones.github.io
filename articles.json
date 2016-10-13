@@ -3,12 +3,18 @@ var articles = [
 	"url": "blog/2016/why-a-static-site.html",
 	"title": "Why A Static Site?",
 	"category": "code",
-	"date": new Date('April 30, 2016 03:24:00')
+	"date": new Date('April 30, 2016 15:24:00')
 },
 {
 	"url": "blog/2016/dynamic-static-sites-with-js.html",
 	"title": "A Dynamic Static Site with Javascript Templating",
 	"category": "code",
-	"date": new Date('May 3, 2016 03:24:00')
+	"date": new Date('May 3, 2016 14:24:00')
 },
+{
+	"url": "blog/2016/the-new-republican-party.html",
+	"title": "The New Republican Party",
+	"category": "politics",
+	"date": new Date('Nov 14, 2016 12:24:00')
+}
 ];

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Archive</title>
+  <link rel="stylesheet" href="/tufte.css"/>
+  <link rel="stylesheet" href="/gjones.css"/>
+  <link rel="stylesheet" href="/latex.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+	<script type="text/javascript" async
+	src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+	</script>
+	<script type="text/javascript" src="/dist/js/jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="/dist/js/handlebars-v4.0.5.js"></script>
+	<script type="text/javascript" src="/dist/js/swag.min.js"></script>
+	<script type="text/javascript" src="/articles.json"></script>
+	<script type="text/javascript" src="/dist/js/moment.js"></script>
+	<script type="text/javascript" src="/dist/js/archive.js"></script>
+</head>
+
+<body>
+	<a href="/" style="text-decoration:none"><h1>A Blog</h1></a>
+	<p class="subtitle">By Gene Jones</p>
+  <header>
+    <nav class="group">
+		<a href="about.html">About Me</a>
+		<a href="blog.html">Archive</a>
+	</nav>
+  </header>
+  <hr class="slender"/>
+  <article>
+	<h1>Archive</h1>
+	<div class="epigraph">
+	<blockquote>
+	<p>Let us save what remains: not by vaults and locks which fence them from the public eye and use in consigning them to the waste of time, but by such a multiplication of copies, as shall place them beyond the reach of accident.</p>
+	<footer>Thomas Jefferson, <cite>Letter to Ebenezer Hazard, 18 Feburary 1791</cite></footer>
+	</blockquote>
+	</div>
+	<section>
+	<h1>Articles By Topics<label for="sn-archive-topics" class="margin-toggle sidenote-number"></label></h1>
+	<p><input type="checkbox" id="sn-archive-topics" class="margin-toggle"/><span class="sidenote">A single article may be listed under multiple topics.</span></p>
+	<div id="topicsContainer"></div>
+	</section>
+	<section>
+	<hr class="slender"/>
+	<h1>Articles By Reverse Date</h1>
+	<div id="archiveListContainer"></div>
+	</section>
+  </article>
+	<script id="archive-topic-list" type="text/x-handlebars-template">
+	{{#each topics}}
+	<section>
+		<h2>{{titleize title}}</h2>
+		<ul class="listing">
+			{{#each articles}}
+				<li><a href="{{url}}">{{truncate title 80 "..."}}</a> - {{formatDate date "%B %e, %Y"}}</li>
+			{{/each}}
+		</ul>
+	</section>
+	{{/each}}
+	</script>
+		<script id="archive-year-list" type="text/x-handlebars-template">
+	{{#each list as |value year|}}
+	<h2>{{year}}</h2>
+	<ul class="listing">
+	{{#each value as |articles month|}}
+	<li><h3>{{month}}</h3><br>
+		<ul class="listing">
+		{{#each articles}}
+			<li><a href="{{url}}">{{truncate title 80 "..."}}</a> - on the {{ordinalize (formatDate date "%e")}}</li>
+		{{/each}}
+		</ul>
+	</li>
+	{{/each}}
+	</ul>
+	{{/each}}
+	</script>
+</body>
+</html>

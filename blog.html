@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8"/>
-  <title>Tufte CSS</title>
-  <link rel="stylesheet" href="/dist/css/tufte.css"/>
-  <link rel="stylesheet" href="/dist/css/gjones.css"/>
-  <link rel="stylesheet" href="/dist/css/latex.css"/>
+  <title>Archive</title>
+  <link rel="stylesheet" href="/tufte.css"/>
+  <link rel="stylesheet" href="/gjones.css"/>
+  <link rel="stylesheet" href="/latex.css"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	<script type="text/x-mathjax-config">
 	MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
@@ -12,6 +12,10 @@
 	<script type="text/javascript" async
 	src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 	</script>
+	<script type="text/javascript" src="/dist/js/handlebars-v4.0.5.js"></script>
+	<script type="text/javascript" src="/dist/js/swag.min.js"></script>
+	<script type="text/javascript" src="/articles.json"></script>
+	<script type="text/javascript" src="/dist/js/archive.js"></script>
 </head>
 
 <body>
@@ -20,47 +24,30 @@
   <header>
     <nav class="group">
 		<a href="about.html">About Me</a>
-		<a href="blog.html">Blog</a>
+		<a href="blog.html">Archive</a>
 	</nav>
   </header>
   <hr class="slender"/>
   <article>
-	<h1>Blog</h1>
+	<h1>My Blog's Archive</h1>
 	<section>
 		<p><span class="newthought">A love affair</span> with code, economics, and footnotes. The below are all perma-links.</p>
     </section>
 	
 	<h2>Topics</h2>
-	<section>
-      <h3>Programming</h3>
-	  <ul class="listing">
-		<li>April 30th, 2016 - <a href="blog/2016/why-a-static-site.html">Why a Static Website?</a></li>
-	  </ul>
-    </section>
+	<div id="topicsContainer"></div>
+	<script id="archive-topic-list" type="text/x-handlebars-template">
+	{{#each topic}}
     <section>
-      <h3>Economics</h3>
+      <h3>{{titleize title}}</h3>
 	  <ul class="listing">
-		<li>April 30th, 2016 - <a href="blog/post.html">Sample Post</a></li>
-		<li><a href="blog/post.html">Sample Post</a> - </li>
-		<li><a href="blog/post.html">Sample Post</a> - </li>
+		{{#each articles}}
+			<li><a href="{{url}}">{{truncate title 40 "..."}}</a> - {{formatDate date "%B %e, %Y"}}</li>
+		{{/each}}
 	  </ul>
-    </section>
-	<section>
-      <h3>Religion</h3>
-	  <ul class="listing">
-		<li>April 20th, 2016 - <a href="blog/post.html">Book of Mormon Footnotes</a></li>
-	  </ul>
-    </section>
-	
-	<h2>Archives</h2>
-    <section>
-      <h3 id="recent-articles">2016</h2>
-	  <ul class="listing">
-		<li>April 20th, 2016 - <a href="blog/post.html">Sample Post</a></li>
-		<li><a href="blog/post.html">Sample Post</a> - </li>
-		<li><a href="blog/post.html">Sample Post</a> - </li>
-	  </ul>
-    </section>
+	  </section>
+	{{/each}}
+	</script>
     
   </article>
 </body>

@@ -10,10 +10,10 @@ header > nav.group, body footer {
   width: 95%;
   padding-top: 2rem; }
 
-nav.group a.active:before {
+nav.group a:before {
   content: "\0003c\000a0"; }
 
-nav.group a.active:after {
+nav.group a:after {
   content: " >"; }
 
 header > nav a {
@@ -25,10 +25,12 @@ header > nav a {
   margin-top: 0;
   margin-bottom: 0;
   padding-right: 4rem;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+  background: none !important;
+  }
   
 ul {
-	  list-style: none;
+	list-style: none;
 }
 
 ul.footer-links, .credits {
