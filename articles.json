@@ -2,21 +2,13 @@ var articles = [
 {
 	"url": "blog/2016/why-a-static-site.html",
 	"title": "Why A Static Site?",
+	"category": "code",
 	"date": new Date('April 30, 2016 03:24:00')
 },
 {
-	"url": "blog/2016/why-a-static-site.html",
-	"title": "Why 25 A Static Site?",
-	"date": new Date('April 25, 2016 03:24:00')
+	"url": "blog/2016/dynamic-static-sites-with-js.html",
+	"title": "A Dynamic Static Site with Javascript Templating",
+	"category": "code",
+	"date": new Date('May 3, 2016 03:24:00')
 },
-{
-	"url": "blog/2016/why-a-static-site.html",
-	"title": "Why A 15 Static Site?",
-	"date": new Date('April 30, 2015 03:24:00')
-},
-{
-	"url": "blog/2016/why-a-static-site.html",
-	"title": "Why Not A Static Site?",
-	"date": new Date('April 30, 2014 03:24:00')
-}
 ];

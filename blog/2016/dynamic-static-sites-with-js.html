@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Dynamic Static Sites with JS</title>
+  <link rel="stylesheet" href="/dist/css/tufte.css"/>
+  <link rel="stylesheet" href="/dist/css/gjones.css"/>
+  <link rel="stylesheet" href="/dist/css/latex.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+	<script type="text/javascript" async
+	src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+	</script>
+</head>
+
+<body>
+	<a href="/" style="text-decoration:none"><h1>A Blog</h1></a>
+	<h2>By Gene Jones</h2>
+  <header>
+    <nav class="group">
+		<a href="/about.html">About Me</a>
+		<a href="/blog.html">Blog</a>
+	</nav>
+  </header>
+  <hr class="slender"/>
+  <article>
+	<h1>Dynamic Static Sites with JS</h1>
+	<section>
+		<p>OK, so static sites have disadvantages.</p>
+		<p>Specifically, my site design is even sparser than the standard static site - usually they use something like Jekyll to generate the site, from a dynamic number of blog posts, etc.
+		The generator turns all this dynamicism into static HTML. That's very powerful. I didn't go this route for <a href="/blog/2016/why-a-static-site.html">reasons dicussed elsewhere</a>.</p>
+    </section>
+	<section>
+		<p>This leftme with a problem: was I really going to update my Archives page everytime I added a post in two locations? And also update the homepage under "recent articles"?</p>
+		<p>Thankfully, I had experience with templating from Django and, more recently, HandlebarsJS. Templates are, if done properly, elegantly beautiful. They seperate the display logic from the model logic, and elegantly.</p>
+		<p>By using HandlebarsJS, the <i>client</i> creates the dynamically generated assets. That frees the burden from my server doing it on the fly (e.g. CGI) or doing this ahead of time (static generator).</p>
+		<p>Now I could update a single location (JSON) and changes would flow out to the rest of my site.
+	</section>
+	<section>
+		<p>The same advantage a dynamic site, or even a dynamically generated static site, would have is now mine. In this sense, I call this a dynamic static site. It is completly static from a file perspective.
+		It also has no generators. But, some presentation logic is dynamically generated on the user's computer as needed.</p>
+		<p>It works for a site with small traffic. When you think about it, for a large traffic site this would be unfair to the users - the sum of user compute time to generate the dynamic content would far exceed the time for a server to generate the dynamic content.
+		</p>
+	</section>
+    
+  </article>
+</body>
+</html>
