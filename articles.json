@@ -60,7 +60,7 @@ var quotes = [
 	"quote":"The greatest improvement in the productive powers of labour, and the greatest part of skill, dexterity, and judgment with which it is any where directed, or applied, seem to have been the effects of the division of labour..",
 	"author":"Adam Smith",
 	"citation":"“The Wealth of Nations”"
-}
+},
 {
 	"quote":"People of the same trade seldom meet together, even for merriment and diversion, but the conversation ends in a conspiracy against the public, or in some contrivance to raise prices.",
 	"author":"Adam Smith",
@@ -92,4 +92,4 @@ var quotes = [
 	"author":"Thomas S. Monson",
 	"citation":"Speech in April 1972"
 }
-]
+];
