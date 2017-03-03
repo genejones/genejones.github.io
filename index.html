@@ -30,17 +30,14 @@
 	  <hr class="slender"/>
 		<section>
 			<p><span class="newthought">A love affair with code, economics, and footnotes</p>
-			<pre class="code">console.log("Hello world!")</pre>
-			<p>This is my site.
-			Hopefully you like it?
-			</p>
+			<pre class="code">console.log("Welcome!")</pre>
 		</section>
 		
 		<section>
 			<h2 id="recent-articles-header">Recent Articles</h2>
 			<ul id="recent-articles" class="listing">
 			</ul>
-			<script id="beacon-template-recent-list" type="text/x-handlebars-template">
+			<script id="articles-template-recent-list" type="text/x-handlebars-template">
 				{{#each articles}}
 					<li><a href="{{url}}">{{truncate title 40 "..."}}</a> - {{formatDate date "%B %e, %Y"}}</li>
 				{{/each}}
@@ -50,12 +47,16 @@
 		<section>
 		<p>If we make the assumption that $money = \infty$...</p>
 		<p><span class="newthought">Pithy Quote<label for="sn-home-pithy-quote" class="margin-toggle sidenote-number"></label></span>
-				<input type="checkbox" id="sn-home-pithy-quote" class="margin-toggle"/><span class="sidenote">As I enjoy a wide variety of quotes (many of them pithy), this will change often</span>
+				<input type="checkbox" id="sn-home-pithy-quote" class="margin-toggle"/><span class="sidenote">As I enjoy a wide variety of quotes (many of them pithy), this will change periodically. Placement of a quote may mean my amusement rather than my agreement.</span>
 				</p>
-				<blockquote>
-				  <p>For a successful technology, reality must take precedence over public relations, for Nature cannot be fooled.</p>
-				  <footer>Richard P. Feynman, <cite>“What Do You Care What Other People Think?”</cite></footer>
-				</blockquote>
+				<span id="pithy-quote"></span>
+				<script id="quote-template" type="text/x-handlebars-template">
+					<blockquote>
+					  <p>{{quote}}</p>
+					  <footer>{{author}}, <cite>{{citation}}</cite>{{note}}</footer>
+					</blockquote>
+				</script>
+			</script>
 		</section>
 
 		<section>
@@ -69,9 +70,11 @@
     
 	</article>
 	<script type="text/javascript">
-		var source = document.getElementById('beacon-template-recent-list');
+		var article_temp = document.getElementById('articles-template-recent-list');
+		var quotes_temp = document.getElementById('quote-template');
 		Swag.registerHelpers(Handlebars);
-		var template = Handlebars.compile(source.innerHTML);
+		article_temp = Handlebars.compile(article_temp.innerHTML);
+		quotes_temp = Handlebars.compile(quotes_temp.innerHTML);
 		var get_most_x_recent_articles = function (articles, number_of_most_recent){
 			var art = articles.sort(function(a, b) {
 			  if (a.date < b.date){ return 1;}
@@ -85,9 +88,16 @@
 			}
 			return art.splice(0, slice_num);
 		}
-		var context = {articles: get_most_x_recent_articles(articles, 3)};
-		var html  = template(context);
-		document.getElementById('recent-articles').innerHTML = html;
+		var get_quote = function(quotes){
+			//get a random quote
+			return quotes[Math.floor(Math.random() * (quotes.length - 1))];
+		}
+		var mostRecent = {articles: get_most_x_recent_articles(articles, 3)};
+		var recentArticlesHtml  = article_temp(mostRecent);
+		document.getElementById('recent-articles').innerHTML = recentArticlesHtml;
+		var quote = get_quote(quotes);
+		var quoteHtml  = quotes_temp({quote: quote});
+		document.getElementById('quote-template').innerHTML = quoteHtml;
 	</script>
 </body>
 </html>

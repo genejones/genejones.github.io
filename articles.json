@@ -24,3 +24,72 @@ var articles = [
 	"date": new Date('Mar 2, 2017 23:24:00')
 }
 ];
+var quotes = [
+{
+	"quote":"For a successful technology, reality must take precedence over public relations, for Nature cannot be fooled.",
+	"author": "Richard P. Feynman",
+	"citation":"“What Do You Care What Other People Think?”"
+},
+{
+	"quote":"If men were angels, no government would be necessary. If angels were to govern men, neither external nor internal controls on government would be necessary. In framing a government which is to be administered by men over men, the great difficulty lies in this: you must first enable the government to control the governed; and in the next place oblige it to control itself.",
+	"author":"James Madison",
+	"citation":"“Federalist No. 51”"
+},
+{
+	"quote":"I'm seventeen and I'm crazy. My uncle says the two always go together. When people ask your age, he said, always say seventeen and insane.",
+	"author":"Ray Bradbury",
+	"citation":"Clarisse McClellan in “Fahrenheit 451”"
+},
+{
+	"quote":"We have everything we need to be happy, but we aren't happy. Something's missing.",
+	"author":"Ray Bradbury",
+	"citation":"Guy Montag in “Fahrenheit 451”",
+	"note":", expressing the economic truth of the hedonic treadmill"
+},
+{
+	"quote":"If you hide your ignorance, no one will hit you, and you'll never learn.",
+	"author":"Ray Bradbury",
+	"citation":"Professor Faber in “Fahrenheit 451”"
+},
+{
+	"quote":"Our labour preserves us from three great evils -- weariness, vice, and want.",
+	"author":"Volatire",
+	"citation":"Candide"
+},
+{
+	"quote":"The greatest improvement in the productive powers of labour, and the greatest part of skill, dexterity, and judgment with which it is any where directed, or applied, seem to have been the effects of the division of labour..",
+	"author":"Adam Smith",
+	"citation":"“The Wealth of Nations”"
+}
+{
+	"quote":"People of the same trade seldom meet together, even for merriment and diversion, but the conversation ends in a conspiracy against the public, or in some contrivance to raise prices.",
+	"author":"Adam Smith",
+	"citation":"“The Wealth of Nations”"
+},
+{
+	"quote":"Mutual Coercion, Mutually Agreed upon",
+	"author":"Garret Hardin",
+	"citation":"“The Tragedy of the Commons” in Science, 1968",
+	"note":", this is a wonderful description of governance."
+},
+{
+	"quote":"Practical men, who believe themselves to be quite exempt from any intellectual influence, are usually the slaves of some defunct economist...soon or late, it is ideas, not vested interests, which are dangerous for good or evil.",
+	"author":"John Keynes",
+	"citation":"“The General Theory of Employment, Interest and Money”, Concluding Notes"
+},
+{
+	"quote":"Loneliness and withdrawal take us as a pawn off the board in the game of life.",
+	"author":"Robert D. Hales",
+	"citation":"Speech in October 1975"
+},
+{
+	"quote":"Again, we have the responsibility to see individuals not as they are but rather as they can become",
+	"author":"Thomas S. Monson",
+	"citation":"Speech in October 2012"
+},
+{
+	"quote":"Vision without effort is daydreaming, effort without vision is drudgery; but vision, coupled with effort, will obtain the prize.",
+	"author":"Thomas S. Monson",
+	"citation":"Speech in April 1972"
+}
+]
