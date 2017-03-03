@@ -12,12 +12,6 @@
 	<script type="text/javascript" async
 	src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 	</script>
-	<script type="text/javascript" src="/dist/js/jquery-1.12.3.min.js"></script>
-	<script type="text/javascript" src="/dist/js/handlebars-v4.0.5.js"></script>
-	<script type="text/javascript" src="/dist/js/swag.min.js"></script>
-	<script type="text/javascript" src="/articles.json"></script>
-	<script type="text/javascript" src="/dist/js/moment.js"></script>
-	<script type="text/javascript" src="/dist/js/archive.js"></script>
 </head>
 
 <body>
@@ -61,7 +55,7 @@
 	</section>
 	{{/each}}
 	</script>
-		<script id="archive-year-list" type="text/x-handlebars-template">
+	<script id="archive-year-list" type="text/x-handlebars-template">
 	{{#each list as |value year|}}
 	<h2>{{year}}</h2>
 	<ul class="listing">
@@ -77,5 +71,12 @@
 	</ul>
 	{{/each}}
 	</script>
+	
+	<script type="text/javascript" src="/dist/js/jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="/dist/js/handlebars.min.js"></script>
+	<script type="text/javascript" src="/dist/js/swag.min.js"></script>
+	<script type="text/javascript" src="/articles.json"></script>
+	<script type="text/javascript" src="/dist/js/moment.js"></script>
+	<script type="text/javascript" src="/dist/js/archive.js"></script>
 </body>
 </html>
