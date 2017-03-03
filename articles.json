@@ -91,5 +91,9 @@ var quotes = [
 	"quote":"Vision without effort is daydreaming, effort without vision is drudgery; but vision, coupled with effort, will obtain the prize.",
 	"author":"Thomas S. Monson",
 	"citation":"Speech in April 1972"
+},
+{
+	"quote":"It is useless to attempt to reason a man out of a thing he never was reasoned into.",
+	"author":"Fisher Ames or Jonathon Swift"
 }
 ];
