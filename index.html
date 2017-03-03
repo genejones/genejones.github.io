@@ -51,10 +51,12 @@
 				</p>
 				<span id="pithy-quote"></span>
 				<script id="quote-template" type="text/x-handlebars-template">
+				{{#each quote}}
 					<blockquote>
 					  <p>{{quote}}</p>
 					  <footer>{{author}}, <cite>{{citation}}</cite>{{note}}</footer>
 					</blockquote>
+				{{/each}}
 				</script>
 			</script>
 		</section>
