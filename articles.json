@@ -16,5 +16,11 @@ var articles = [
 	"title": "The New Republican Party",
 	"category": "politics",
 	"date": new Date('Nov 14, 2016 12:24:00')
+},
+{
+	"url": "blog/2017/a-great-story.html",
+	"title": "A Great Story",
+	"category": "movie",
+	"date": new Date('Mar 2, 2017 23:24:00')
 }
 ];
